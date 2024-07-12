@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mostrarModel1StoreContainer" CdmEntityContainer="mostrarEntities">
+    <EntitySetMapping Name="CA_IP_SUCURSAL_DEPENDIENTE">
+      <EntityTypeMapping TypeName="mostrarModel1.CA_IP_SUCURSAL_DEPENDIENTE">
+        <MappingFragment StoreEntitySet="CA_IP_SUCURSAL_DEPENDIENTE">
+          <ScalarProperty Name="Corte" ColumnName="Corte" />
+          <ScalarProperty Name="Valor_Lista" ColumnName="Valor_Lista" />
+          <ScalarProperty Name="IpTotal" ColumnName="IpTotal" />
+          <ScalarProperty Name="ClienteNombre" ColumnName="ClienteNombre" />
+          <ScalarProperty Name="Pais" ColumnName="Pais" />
+          <ScalarProperty Name="Anio" ColumnName="Anio" />
+          <ScalarProperty Name="Mes" ColumnName="Mes" />
+          <ScalarProperty Name="NombreCanal" ColumnName="NombreCanal" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+          <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+          <ScalarProperty Name="Canal" ColumnName="Canal" />
+          <ScalarProperty Name="Incentivos" ColumnName="Incentivos" />
+          <ScalarProperty Name="IdLista" ColumnName="IdLista" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="Canje" ColumnName="Canje" />
+          <ScalarProperty Name="TipoCanje" ColumnName="TipoCanje" />
+          <ScalarProperty Name="Unidades" ColumnName="Unidades" />
+          <ScalarProperty Name="Promotor" ColumnName="Promotor" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="IPEstadoDesc" ColumnName="IPEstadoDesc" />
+          <ScalarProperty Name="Semana" ColumnName="Semana" />
+          <ScalarProperty Name="Cod_Cliente" ColumnName="Cod_Cliente" />
+          <ScalarProperty Name="IdSucursal" ColumnName="IdSucursal" />
+          <ScalarProperty Name="IdDependiente" ColumnName="IdDependiente" />
+          <ScalarProperty Name="Dependiente" ColumnName="Dependiente" />
+          <ScalarProperty Name="NProducto" ColumnName="NProducto" />
+          <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
+          <ScalarProperty Name="Dependiente2" ColumnName="Dependiente2" />
+          <ScalarProperty Name="Factura" ColumnName="Factura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mostrarModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'DataManagement.dbo.CA_IP_SUCURSAL_DEPENDIENTE' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CA_IP_SUCURSAL_DEPENDIENTE">
+    <Key>
+      <PropertyRef Name="NombreCanal" />
+      <PropertyRef Name="Producto" />
+      <PropertyRef Name="Cliente" />
+      <PropertyRef Name="Canal" />
+      <PropertyRef Name="descripcion" />
+      <PropertyRef Name="Canje" />
+      <PropertyRef Name="IPEstadoDesc" />
+      <PropertyRef Name="Cod_Cliente" />
+      <PropertyRef Name="IdSucursal" />
+      <PropertyRef Name="IdDependiente" />
+      <PropertyRef Name="Dependiente" />
+      <PropertyRef Name="Dependiente2" />
+      <PropertyRef Name="Factura" />
+    </Key>
+    <Property Name="Corte" Type="int" />
+    <Property Name="Valor_Lista" Type="float" />
+    <Property Name="IpTotal" Type="float" />
+    <Property Name="ClienteNombre" Type="nvarchar" MaxLength="255" />
+    <Property Name="Pais" Type="varchar" MaxLength="2" />
+    <Property Name="Anio" Type="int" />
+    <Property Name="Mes" Type="int" />
+    <Property Name="NombreCanal" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Producto" Type="float" Nullable="false" />
+    <Property Name="Cliente" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Canal" Type="int" Nullable="false" />
+    <Property Name="Incentivos" Type="int" />
+    <Property Name="IdLista" Type="int" />
+    <Property Name="descripcion" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Canje" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="TipoCanje" Type="int" />
+    <Property Name="Unidades" Type="float" />
+    <Property Name="Promotor" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" />
+    <Property Name="Usuario" Type="varchar" MaxLength="25" />
+    <Property Name="IPEstadoDesc" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="Semana" Type="tinyint" />
+    <Property Name="Cod_Cliente" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IdSucursal" Type="int" Nullable="false" />
+    <Property Name="IdDependiente" Type="int" Nullable="false" />
+    <Property Name="Dependiente" Type="nvarchar" MaxLength="276" Nullable="false" />
+    <Property Name="NProducto" Type="nvarchar" MaxLength="4000" />
+    <Property Name="Sucursal" Type="nvarchar" MaxLength="4000" />
+    <Property Name="Dependiente2" Type="nvarchar" MaxLength="302" Nullable="false" />
+    <Property Name="Factura" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="mostrarModel1StoreContainer">
+    <EntitySet Name="CA_IP_SUCURSAL_DEPENDIENTE" EntityType="Self.CA_IP_SUCURSAL_DEPENDIENTE" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Corte] AS [Corte], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Valor_Lista] AS [Valor_Lista], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[IpTotal] AS [IpTotal], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[ClienteNombre] AS [ClienteNombre], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Pais] AS [Pais], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Anio] AS [Anio], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Mes] AS [Mes], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[NombreCanal] AS [NombreCanal], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Producto] AS [Producto], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Cliente] AS [Cliente], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Canal] AS [Canal], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Incentivos] AS [Incentivos], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[IdLista] AS [IdLista], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[descripcion] AS [descripcion], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Canje] AS [Canje], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[TipoCanje] AS [TipoCanje], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Unidades] AS [Unidades], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Promotor] AS [Promotor], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Nombre] AS [Nombre], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Usuario] AS [Usuario], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[IPEstadoDesc] AS [IPEstadoDesc], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Semana] AS [Semana], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Cod_Cliente] AS [Cod_Cliente], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[IdSucursal] AS [IdSucursal], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[IdDependiente] AS [IdDependiente], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Dependiente] AS [Dependiente], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[NProducto] AS [NProducto], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Sucursal] AS [Sucursal], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Dependiente2] AS [Dependiente2], 
+    [CA_IP_SUCURSAL_DEPENDIENTE].[Factura] AS [Factura]
+    FROM [dbo].[CA_IP_SUCURSAL_DEPENDIENTE] AS [CA_IP_SUCURSAL_DEPENDIENTE]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

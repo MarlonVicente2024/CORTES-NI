@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="generacortes_ni" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DataManagementEntities1" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_valida_Genera_Genera_Con_Exclusion_Inclusion">
+      <Parameter Name="Pais" Mode="In" Type="String" />
+      <Parameter Name="Cliente" Mode="In" Type="String" />
+      <Parameter Name="Promotor" Mode="In" Type="Int32" />
+      <Parameter Name="Usuario" Mode="In" Type="String" />
+      <Parameter Name="Observaciones" Mode="In" Type="String" />
+      <Parameter Name="Corte" Mode="In" Type="Int32" />
+      <Parameter Name="anio" Mode="In" Type="Int32" />
+      <Parameter Name="mes" Mode="In" Type="Int32" />
+      <Parameter Name="ExcluirDocumentos" Mode="In" Type="String" />
+      <Parameter Name="IncluirDocumentos" Mode="In" Type="String" />
+      <Parameter Name="SalidaCorte" Mode="InOut" Type="Int32" />
+      <Parameter Name="SalidaIdo" Mode="InOut" Type="Int32" />
+      <Parameter Name="clienteh" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

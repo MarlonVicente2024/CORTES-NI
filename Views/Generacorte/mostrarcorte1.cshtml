@@ -1,0 +1,133 @@
+﻿@model List<nicaragua.Models.CA_IP_SUCURSAL_DEPENDIENTE>
+
+@{
+    ViewBag.Title = "Mostrar Corte";
+}
+
+<h2>Mostrar Corte</h2>
+
+<div>
+    <label for="corte">Número de Corte:</label>
+    <input type="text" id="corte" name="corte" />
+    <button id="searchButton" class="btn btn-primary">Buscar</button>
+</div>
+
+<div class="table-responsive mt-3">
+    <table id="corteTable" class="display" style="width:100%">
+        <thead style="background-color:black; color:white">
+            <tr>
+                <th>Corte</th>
+                <th>Valor Lista</th>
+                <th>Ip Total</th>
+                <th>Cliente Nombre</th>
+                <th>País</th>
+                <th>Año</th>
+                <th>Mes</th>
+                <th>Nombre Canal</th>
+                <th>Producto</th>
+                <th>Cliente</th>
+                <th>Canal</th>
+                <th>Incentivos</th>
+                <th>Id Lista</th>
+                <th>Descripción</th>
+                <th>Canje</th>
+                <th>Tipo Canje</th>
+                <th>Unidades</th>
+                <th>Promotor</th>
+                <th>Nombre</th>
+                <th>Usuario</th>
+                <th>IP Estado Desc</th>
+                <th>Semana</th>
+                <th>Cod Cliente</th>
+                <th>Id Sucursal</th>
+                <th>Id Dependiente</th>
+                <th>Dependiente</th>
+                <th>N Producto</th>
+                <th>Sucursal</th>
+                <th>Dependiente2</th>
+                <th>Factura</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<button id="exportButton" class="btn btn-success mt-3">Exportar a Excel</button>
+
+@section scripts {
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.11.5/datatables.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.11.5/datatables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var table = $('#corteTable').DataTable({
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    "url": "@Url.Action("Json", "Mostrartabla_corte")",
+                    "type": "POST",
+                    "data": function (d) {
+                        d.Corte = $('#corte').val();
+                    }
+                },
+                "columns": [
+                    { "data": "Corte", "name": "Corte" },
+                    { "data": "Valor_Lista", "name": "Valor_Lista" },
+                    { "data": "IpTotal", "name": "IpTotal" },
+                    { "data": "ClienteNombre", "name": "ClienteNombre" },
+                    { "data": "Pais", "name": "Pais" },
+                    { "data": "Anio", "name": "Anio" },
+                    { "data": "Mes", "name": "Mes" },
+                    { "data": "NombreCanal", "name": "NombreCanal" },
+                    { "data": "Producto", "name": "Producto" },
+                    { "data": "Cliente", "name": "Cliente" },
+                    { "data": "Canal", "name": "Canal" },
+                    { "data": "Incentivos", "name": "Incentivos" },
+                    { "data": "IdLista", "name": "IdLista" },
+                    { "data": "descripcion", "name": "descripcion" },
+                    { "data": "Canje", "name": "Canje" },
+                    { "data": "TipoCanje", "name": "TipoCanje" },
+                    { "data": "Unidades", "name": "Unidades" },
+                    { "data": "Promotor", "name": "Promotor" },
+                    { "data": "Nombre", "name": "Nombre" },
+                    { "data": "Usuario", "name": "Usuario" },
+                    { "data": "IPEstadoDesc", "name": "IPEstadoDesc" },
+                    { "data": "Semana", "name": "Semana" },
+                    { "data": "Cod_Cliente", "name": "Cod_Cliente" },
+                    { "data": "IdSucursal", "name": "IdSucursal" },
+                    { "data": "IdDependiente", "name": "IdDependiente" },
+                    { "data": "Dependiente", "name": "Dependiente" },
+                    { "data": "NProducto", "name": "NProducto" },
+                    { "data": "Sucursal", "name": "Sucursal" },
+                    { "data": "Dependiente2", "name": "Dependiente2" },
+                    { "data": "Factura", "name": "Factura" }
+                ],
+                "language": {
+                    "search": "Buscar:",
+                    "lengthMenu": "Mostrar _MENU_ datos por página",
+                    "info": "Mostrando _START_ a _END_ de _TOTAL_ datos",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Último",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    }
+                }
+            });
+
+            $('#searchButton').on('click', function () {
+                table.draw();
+            });
+
+            $('#exportButton').on('click', function () {
+                var corte = $('#corte').val();
+                if (corte) {
+                    window.location.href = '@Url.Action("DescargarCorte", "Generacorte")' + '?corte=' + corte;
+                } else {
+                    alert('Por favor, ingrese un número de corte válido.');
+                }
+            });
+        });
+    </script>
+}

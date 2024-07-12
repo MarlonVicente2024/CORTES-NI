@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mostrarModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CA_IP_SUCURSAL_DEPENDIENTE">
+    <Key>
+      <PropertyRef Name="NombreCanal" />
+      <PropertyRef Name="Producto" />
+      <PropertyRef Name="Cliente" />
+      <PropertyRef Name="Canal" />
+      <PropertyRef Name="descripcion" />
+      <PropertyRef Name="Canje" />
+      <PropertyRef Name="IPEstadoDesc" />
+      <PropertyRef Name="Cod_Cliente" />
+      <PropertyRef Name="IdSucursal" />
+      <PropertyRef Name="IdDependiente" />
+      <PropertyRef Name="Dependiente" />
+      <PropertyRef Name="Dependiente2" />
+      <PropertyRef Name="Factura" />
+    </Key>
+    <Property Name="Corte" Type="Int32" />
+    <Property Name="Valor_Lista" Type="Double" />
+    <Property Name="IpTotal" Type="Double" />
+    <Property Name="ClienteNombre" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Pais" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="Anio" Type="Int32" />
+    <Property Name="Mes" Type="Int32" />
+    <Property Name="NombreCanal" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Producto" Type="Double" Nullable="false" />
+    <Property Name="Cliente" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Canal" Type="Int32" Nullable="false" />
+    <Property Name="Incentivos" Type="Int32" />
+    <Property Name="IdLista" Type="Int32" />
+    <Property Name="descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Canje" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TipoCanje" Type="Int32" />
+    <Property Name="Unidades" Type="Double" />
+    <Property Name="Promotor" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Usuario" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="IPEstadoDesc" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Semana" Type="Byte" />
+    <Property Name="Cod_Cliente" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IdSucursal" Type="Int32" Nullable="false" />
+    <Property Name="IdDependiente" Type="Int32" Nullable="false" />
+    <Property Name="Dependiente" Type="String" MaxLength="276" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NProducto" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="Sucursal" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="Dependiente2" Type="String" MaxLength="302" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Factura" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="mostrarEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CA_IP_SUCURSAL_DEPENDIENTE" EntityType="Self.CA_IP_SUCURSAL_DEPENDIENTE" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DataManagementModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="SP_VALIDAR_DATOS_CORTES_NI" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ANIO" Type="int" Mode="In" />
+          <Parameter Name="MES" Type="int" Mode="In" />
+          <Parameter Name="CLIENTEPADRE" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="DataManagementModelStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DataManagementModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DataManagementEntities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="SP_VALIDAR_DATOS_CORTES_NI" ReturnType="Collection(DataManagementModel.SP_VALIDAR_DATOS_CORTES_NI_Result)">
+            <Parameter Name="ANIO" Mode="In" Type="Int32" />
+            <Parameter Name="MES" Mode="In" Type="Int32" />
+            <Parameter Name="CLIENTEPADRE" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="SP_VALIDAR_DATOS_CORTES_NI_Result">
+          <Property Type="Int32" Name="anio" Nullable="false" />
+          <Property Type="Int32" Name="mes" Nullable="false" />
+          <Property Type="String" Name="clientepadre" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="cliente" Nullable="false" MaxLength="50" />
+          <Property Type="Int32" Name="IdLista" Nullable="true" />
+          <Property Type="Int32" Name="IdSucursal" Nullable="true" />
+          <Property Type="Int32" Name="IdDependiente" Nullable="true" />
+          <Property Type="String" Name="Documento" Nullable="true" MaxLength="10" />
+          <Property Type="Double" Name="producto" Nullable="false" />
+          <Property Type="Double" Name="unidades" Nullable="true" />
+          <Property Type="Double" Name="Valor" Nullable="true" />
+          <Property Type="Double" Name="ipvalor" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DataManagementModelStoreContainer" CdmEntityContainer="DataManagementEntities" >
+          <FunctionImportMapping FunctionImportName="SP_VALIDAR_DATOS_CORTES_NI" FunctionName="DataManagementModel.Store.SP_VALIDAR_DATOS_CORTES_NI">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DataManagementModel.SP_VALIDAR_DATOS_CORTES_NI_Result">
+                <ScalarProperty Name="anio" ColumnName="anio" />
+                <ScalarProperty Name="mes" ColumnName="mes" />
+                <ScalarProperty Name="clientepadre" ColumnName="clientepadre" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="IdLista" ColumnName="IdLista" />
+                <ScalarProperty Name="IdSucursal" ColumnName="IdSucursal" />
+                <ScalarProperty Name="IdDependiente" ColumnName="IdDependiente" />
+                <ScalarProperty Name="Documento" ColumnName="Documento" />
+                <ScalarProperty Name="producto" ColumnName="producto" />
+                <ScalarProperty Name="unidades" ColumnName="unidades" />
+                <ScalarProperty Name="Valor" ColumnName="Valor" />
+                <ScalarProperty Name="ipvalor" ColumnName="ipvalor" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

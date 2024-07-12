@@ -1,0 +1,94 @@
+﻿
+
+
+@model List<nicaragua.Models.SP_VALIDAR_DATOS_CORTES_NI_Result>
+
+@{
+    ViewBag.Title = "VALIDAR VENTA NI";
+}
+
+<h2>VALIDAR VENTA NI</h2>
+
+<div>
+    <label for="anio">Año:</label>
+    <input type="number" id="anio" name="anio" />
+    <label for="mes">Mes:</label>
+    <input type="number" id="mes" name="mes" />
+    <label for="clientepadre">Cliente Padre:</label>
+    <input type="text" id="clientepadre" name="clientepadre" />
+    <button id="searchButton">Buscar</button>
+</div>
+
+<div class="table-responsive">
+    <table id="myTable" class="display" style="width:100%">
+        <thead style="background-color:darkblue; color:white">
+            <tr>
+                <th>Año</th>
+                <th>Mes</th>
+                <th>Cliente Padre</th>
+                <th>Cliente</th>
+                <th>Id Lista</th>
+                <th>Id Sucursal</th>
+                <th>Id Dependiente</th>
+                <th>Documento</th>
+                <th>Producto</th>
+                <th>Unidades</th>
+                <th>Valor</th>
+                <th>IP Valor</th>
+            </tr>
+        </thead>
+        <tbody style="background-color:antiquewhite">
+        </tbody>
+    </table>
+</div>
+
+@section scripts {
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.11.5/datatables.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.11.5/datatables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var table = $('#myTable').DataTable({
+                "processing": true,
+                "serverSide": true,
+                "ajax": {
+                    "url": "@Url.Action("Json", "CortesNI")",
+                    "type": "POST",
+                    "data": function (d) {
+                        d.anio = $('#anio').val();
+                        d.mes = $('#mes').val();
+                        d.clientepadre = $('#clientepadre').val();
+                    }
+                },
+                "columns": [
+                    { "data": "anio", name: "anio" },
+                    { "data": "mes", name: "mes" },
+                    { "data": "clientepadre", name: "clientepadre" },
+                    { "data": "cliente", name: "cliente" },
+                    { "data": "IdLista", name: "IdLista" },
+                    { "data": "IdSucursal", name: "IdSucursal" },
+                    { "data": "IdDependiente", name: "IdDependiente" },
+                    { "data": "Documento", name: "Documento" },
+                    { "data": "producto", name: "producto" },
+                    { "data": "unidades", name: "unidades" },
+                    { "data": "Valor", name: "Valor" },
+                    { "data": "ipvalor", name: "ipvalor" }
+                ],
+                "language": {
+                    "search": "Buscar por código o nombre:",
+                    "lengthMenu": "Mostrar _MENU_ datos por página",
+                    "buttons": {
+                        "excel": "Exportar a Excel",
+                        "pdf": "Exportar a PDF",
+                        "print": "Imprimir"
+                    }
+                },
+            });
+
+            $('#searchButton').on('click', function () {
+                table.draw();
+            });
+        });
+    </script>
+}
+

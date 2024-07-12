@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="generacortes_ni.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="sp_valida_Genera_Genera_Con_Exclusion_Inclusion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Pais" Type="varchar" Mode="In" />
+          <Parameter Name="Cliente" Type="varchar" Mode="In" />
+          <Parameter Name="Promotor" Type="int" Mode="In" />
+          <Parameter Name="Usuario" Type="varchar" Mode="In" />
+          <Parameter Name="Observaciones" Type="varchar" Mode="In" />
+          <Parameter Name="Corte" Type="int" Mode="In" />
+          <Parameter Name="anio" Type="int" Mode="In" />
+          <Parameter Name="mes" Type="int" Mode="In" />
+          <Parameter Name="ExcluirDocumentos" Type="varchar(max)" Mode="In" />
+          <Parameter Name="IncluirDocumentos" Type="varchar(max)" Mode="In" />
+          <Parameter Name="SalidaCorte" Type="int" Mode="InOut" />
+          <Parameter Name="SalidaIdo" Type="int" Mode="InOut" />
+          <Parameter Name="clienteh" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="generacortes_niStoreContainer" />
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="generacortes_ni" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DataManagementEntities1" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="sp_valida_Genera_Genera_Con_Exclusion_Inclusion">
+            <Parameter Name="Pais" Mode="In" Type="String" />
+            <Parameter Name="Cliente" Mode="In" Type="String" />
+            <Parameter Name="Promotor" Mode="In" Type="Int32" />
+            <Parameter Name="Usuario" Mode="In" Type="String" />
+            <Parameter Name="Observaciones" Mode="In" Type="String" />
+            <Parameter Name="Corte" Mode="In" Type="Int32" />
+            <Parameter Name="anio" Mode="In" Type="Int32" />
+            <Parameter Name="mes" Mode="In" Type="Int32" />
+            <Parameter Name="ExcluirDocumentos" Mode="In" Type="String" />
+            <Parameter Name="IncluirDocumentos" Mode="In" Type="String" />
+            <Parameter Name="SalidaCorte" Mode="InOut" Type="Int32" />
+            <Parameter Name="SalidaIdo" Mode="InOut" Type="Int32" />
+            <Parameter Name="clienteh" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="generacortes_niStoreContainer" CdmEntityContainer="DataManagementEntities1" >
+          <FunctionImportMapping FunctionImportName="sp_valida_Genera_Genera_Con_Exclusion_Inclusion" FunctionName="generacortes_ni.Store.sp_valida_Genera_Genera_Con_Exclusion_Inclusion" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

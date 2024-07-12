@@ -1,0 +1,627 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\views\\cortesni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\cortesni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\views\\mostrartabla_corte\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\mostrartabla_corte\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\views\\generacorte\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\generacorte\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\content\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:content\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\controllers\\cortesnicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:controllers\\cortesnicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\permisos\\validarsesionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:permisos\\validarsesionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\controllers\\mostrartabla_cortecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:controllers\\mostrartabla_cortecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|c:\\users\\marlon.vicente\\onedrive - phq labs\\escritorio\\development\\nicaragua zip\\nicaragua\\content\\imagen\\lasante.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:content\\imagen\\lasante.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\controllers\\generacortecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:controllers\\generacortecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\views\\generacorte\\mostrarcorte1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:views\\generacorte\\mostrarcorte1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\mostrar_corte.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\mostrar_corte.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\mostrar_corte.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\mostrar_corte.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marlon.vicente\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\ca_ip_sucursal_dependiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\ca_ip_sucursal_dependiente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\mostrar_corte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\mostrar_corte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\mostrar_corte.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\mostrar_corte.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\packages\\EPPlus.7.2.0\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\EPPlus.7.2.0\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\viewmodels\\generacorte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\viewmodels\\generacorte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\generacorteni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\generacorteni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\sp_validar_datos_cortes_ni_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\sp_validar_datos_cortes_ni_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\viewmodels\\cortes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\viewmodels\\cortes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\cortesni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\cortesni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\cortesni.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{52FD63A8-737A-4701-96AD-8C2DB689F131}|nicaragua.csproj|solutionrelative:models\\cortesni.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\models\\viewmodels\\ca_ip_sucursal_dependiente1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\viewmodels\\ca_ip_sucursal_dependiente1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CortesNIController.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\CortesNIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CortesNIController.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\CortesNIController.cs",
+              "RelativeToolTip": "Controllers\\CortesNIController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T15:05:35.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:28:51.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:23:36.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:40:13.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\CortesNI\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CortesNI\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\CortesNI\\Index.cshtml",
+              "RelativeToolTip": "Views\\CortesNI\\Index.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T15:05:49.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Acceso\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Acceso\\Login.cshtml",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Acceso\\Login.cshtml",
+              "RelativeToolTip": "Views\\Acceso\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T19:00:14.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Mostrartabla_corte\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mostrartabla_corte\\index.cshtml",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Mostrartabla_corte\\index.cshtml",
+              "RelativeToolTip": "Views\\Mostrartabla_corte\\index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T18:41:28.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GeneracorteController.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\GeneracorteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GeneracorteController.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\GeneracorteController.cs",
+              "RelativeToolTip": "Controllers\\GeneracorteController.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAswI4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:44:39.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Content\\css\\Login.css",
+              "RelativeDocumentMoniker": "Content\\css\\Login.css",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Content\\css\\Login.css",
+              "RelativeToolTip": "Content\\css\\Login.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-11T19:01:28.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PerfCounters.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6eca1a405f325a1d6d8b96ec9aad3bdbd67aa19a1d3c926419f117fcd63e17bc\\PerfCounters.cs [Solo lectura]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T18:39:18.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T15:03:08.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T20:49:36.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T20:49:41.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Generacorte\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Generacorte\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Generacorte\\Index.cshtml",
+              "RelativeToolTip": "Views\\Generacorte\\Index.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAA8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T18:14:30.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:49:26.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T20:38:06.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Views\\Web.config",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Web.config",
+              "RelativeToolTip": "Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-11T20:38:14.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ValidarSesionAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Permisos\\ValidarSesionAttribute.cs",
+              "RelativeDocumentMoniker": "Permisos\\ValidarSesionAttribute.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Permisos\\ValidarSesionAttribute.cs",
+              "RelativeToolTip": "Permisos\\ValidarSesionAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:28:09.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Mostrartabla_corteController.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\Mostrartabla_corteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Mostrartabla_corteController.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\Mostrartabla_corteController.cs",
+              "RelativeToolTip": "Controllers\\Mostrartabla_corteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:55:18.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:52:59.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccesoController.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\AccesoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccesoController.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Controllers\\AccesoController.cs",
+              "RelativeToolTip": "Controllers\\AccesoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:45:38.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Lasante.jpg - Bitmap [225x225, 24 bits, JPG]",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Content\\Imagen\\Lasante.jpg",
+              "RelativeDocumentMoniker": "Content\\Imagen\\Lasante.jpg",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Content\\Imagen\\Lasante.jpg - Bitmap [225x225, 24 bits, JPG]",
+              "RelativeToolTip": "Content\\Imagen\\Lasante.jpg - Bitmap [225x225, 24 bits, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-07-11T19:01:18.152Z",
+              "EditorCaption": " - Bitmap [225x225, 24 bits, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "mostrar_corte.Context.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\mostrar_corte.Context.cs",
+              "RelativeDocumentMoniker": "Models\\mostrar_corte.Context.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\mostrar_corte.Context.cs",
+              "RelativeToolTip": "Models\\mostrar_corte.Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:49:58.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "mostrarcorte1.cshtml",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Generacorte\\mostrarcorte1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Generacorte\\mostrarcorte1.cshtml",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Views\\Generacorte\\mostrarcorte1.cshtml",
+              "RelativeToolTip": "Views\\Generacorte\\mostrarcorte1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T23:22:48.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "mostrar_corte.Context.tt",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\mostrar_corte.Context.tt",
+              "RelativeDocumentMoniker": "Models\\mostrar_corte.Context.tt",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\mostrar_corte.Context.tt",
+              "RelativeToolTip": "Models\\mostrar_corte.Context.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-26T17:55:37.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "mostrar_corte.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\mostrar_corte.cs",
+              "RelativeDocumentMoniker": "Models\\mostrar_corte.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\mostrar_corte.cs",
+              "RelativeToolTip": "Models\\mostrar_corte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:20:31.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CA_IP_SUCURSAL_DEPENDIENTE.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\CA_IP_SUCURSAL_DEPENDIENTE.cs",
+              "RelativeDocumentMoniker": "Models\\CA_IP_SUCURSAL_DEPENDIENTE.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\CA_IP_SUCURSAL_DEPENDIENTE.cs",
+              "RelativeToolTip": "Models\\CA_IP_SUCURSAL_DEPENDIENTE.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAywDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:20:32.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T16:14:40.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "mostrar_corte.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\mostrar_corte.edmx",
+              "RelativeDocumentMoniker": "Models\\mostrar_corte.edmx",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\nicaragua\\Models\\mostrar_corte.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\nicaragua\\Models\\mostrar_corte.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-26T15:18:09.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CA_IP_SUCURSAL_DEPENDIENTE1.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\ViewModels\\CA_IP_SUCURSAL_DEPENDIENTE1.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\CA_IP_SUCURSAL_DEPENDIENTE1.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\ViewModels\\CA_IP_SUCURSAL_DEPENDIENTE1.cs",
+              "RelativeToolTip": "Models\\ViewModels\\CA_IP_SUCURSAL_DEPENDIENTE1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T21:20:49.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GeneraCorteNI.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\GeneraCorteNI.cs",
+              "RelativeDocumentMoniker": "Models\\GeneraCorteNI.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\GeneraCorteNI.cs",
+              "RelativeToolTip": "Models\\GeneraCorteNI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:54:24.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GeneraCorte.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\ViewModels\\GeneraCorte.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\GeneraCorte.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\ViewModels\\GeneraCorte.cs",
+              "RelativeToolTip": "Models\\ViewModels\\GeneraCorte.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T17:54:46.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\packages\\EPPlus.7.2.0\\readme.txt",
+              "RelativeDocumentMoniker": "packages\\EPPlus.7.2.0\\readme.txt",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\packages\\EPPlus.7.2.0\\readme.txt",
+              "RelativeToolTip": "packages\\EPPlus.7.2.0\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-25T21:31:39.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Cortes.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\ViewModels\\Cortes.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\Cortes.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\ViewModels\\Cortes.cs",
+              "RelativeToolTip": "Models\\ViewModels\\Cortes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T15:09:21.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SP_VALIDAR_DATOS_CORTES_NI_Result.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\SP_VALIDAR_DATOS_CORTES_NI_Result.cs",
+              "RelativeDocumentMoniker": "Models\\SP_VALIDAR_DATOS_CORTES_NI_Result.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\SP_VALIDAR_DATOS_CORTES_NI_Result.cs",
+              "RelativeToolTip": "Models\\SP_VALIDAR_DATOS_CORTES_NI_Result.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAABEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:52:24.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CORTESNI.cs",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\CORTESNI.cs",
+              "RelativeDocumentMoniker": "Models\\CORTESNI.cs",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\CORTESNI.cs",
+              "RelativeToolTip": "Models\\CORTESNI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T14:52:21.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CORTESNI.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\NICARAGUA ZIP\\nicaragua\\Models\\CORTESNI.edmx",
+              "RelativeDocumentMoniker": "Models\\CORTESNI.edmx",
+              "ToolTip": "C:\\Users\\marlon.vicente\\OneDrive - PHQ LABS\\Escritorio\\development\\nicaragua\\Models\\CORTESNI.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\nicaragua\\Models\\CORTESNI.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-24T14:50:32.161Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

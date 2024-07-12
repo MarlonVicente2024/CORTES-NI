@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="generacortes_niStoreContainer" CdmEntityContainer="DataManagementEntities1">
+    <FunctionImportMapping FunctionImportName="sp_valida_Genera_Genera_Con_Exclusion_Inclusion" FunctionName="generacortes_ni.Store.sp_valida_Genera_Genera_Con_Exclusion_Inclusion" />
+  </EntityContainerMapping>
+</Mapping>

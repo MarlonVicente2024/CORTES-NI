@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    .nav-button {
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+        .btn-primary:hover, .btn-secondary:hover, .btn-danger:hover {
+            opacity: 0.8;
+        }
+</style>
+
+<ul class="nav">
+    <li class="nav-item">
+        <button onclick="location.href='@Url.Action("Index", "CortesNI")'" class="nav-button btn-primary">CORTES NI</button>
+    </li>
+    <li class="nav-item">
+        <button onclick="location.href='@Url.Action("Index", "Generacorte")'" class="nav-button btn-secondary">GENERAR CORTE</button>
+    </li>
+    @*<li class="nav-item">
+        <button onclick="location.href='@Url.Action("CerrarSesion", "Home")'" class="nav-button btn-danger">Salir</button>
+    </li>*@
+</ul>

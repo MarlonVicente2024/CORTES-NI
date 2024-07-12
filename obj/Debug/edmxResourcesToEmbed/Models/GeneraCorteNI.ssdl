@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="generacortes_ni.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <Function Name="sp_valida_Genera_Genera_Con_Exclusion_Inclusion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Pais" Type="varchar" Mode="In" />
+    <Parameter Name="Cliente" Type="varchar" Mode="In" />
+    <Parameter Name="Promotor" Type="int" Mode="In" />
+    <Parameter Name="Usuario" Type="varchar" Mode="In" />
+    <Parameter Name="Observaciones" Type="varchar" Mode="In" />
+    <Parameter Name="Corte" Type="int" Mode="In" />
+    <Parameter Name="anio" Type="int" Mode="In" />
+    <Parameter Name="mes" Type="int" Mode="In" />
+    <Parameter Name="ExcluirDocumentos" Type="varchar(max)" Mode="In" />
+    <Parameter Name="IncluirDocumentos" Type="varchar(max)" Mode="In" />
+    <Parameter Name="SalidaCorte" Type="int" Mode="InOut" />
+    <Parameter Name="SalidaIdo" Type="int" Mode="InOut" />
+    <Parameter Name="clienteh" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="generacortes_niStoreContainer" />
+</Schema>

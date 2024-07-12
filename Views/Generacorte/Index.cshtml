@@ -1,0 +1,241 @@
+﻿@{
+    ViewBag.Title = "Generar Corte";
+}
+
+@model nicaragua.Models.ViewModels.GeneraCorte
+
+<h2>Generar Corte</h2>
+
+<!-- Botones para abrir los modales -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Generar Corte
+</button>
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#anularModal">
+    Anular Corte
+</button>
+<a href="@Url.Action("index", "Mostrartabla_corte")" class="btn btn-success">
+    Mostrar Datos del Corte
+</a>
+
+<!-- Modal para ingresar la información de generar corte -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Generar Corte</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm("GenerarCorte", "Generacorte", FormMethod.Post, new { id = "corteForm" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Cliente, "Cliente")
+                        @Html.DropDownListFor(m => m.Cliente, Model.Clientes, "Selecciona un cliente", new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Anio, "Año")
+                        @Html.TextBoxFor(m => m.Anio, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Mes, "Mes")
+                        @Html.TextBoxFor(m => m.Mes, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Observaciones, "Elija la farmacia")
+                        @Html.DropDownListFor(m => m.Observaciones, Model.Farmacias, "Selecciona una farmacia", new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Corte, "Número de Corte (Opcional)")
+                        @Html.TextBoxFor(m => m.Corte, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.ExcluirDocumentos, "Excluir facturas (Opcional)")
+                        @Html.TextBoxFor(m => m.ExcluirDocumentos, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.IncluirDocumentos, "Incluir Facturas (Opcional)")
+                        @Html.TextBoxFor(m => m.IncluirDocumentos, new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Generar Corte</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para anular corte -->
+<div class="modal fade" id="anularModal" tabindex="-1" role="dialog" aria-labelledby="anularModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="anularModalLabel">Anular Corte</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm("AnularCorte", "Generacorte", FormMethod.Post, new { id = "anularForm" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.Label("Número de Corte")
+                        @Html.TextBox("NumeroCorte", "", new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.Label("Fecha de Anulación")
+                        @Html.TextBox("FechaAnula", DateTime.Now.ToString("dd/MM/yyyy"), new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-danger">Anular Corte</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para mostrar datos del corte -->
+<div class="modal fade" id="mostrarCorteModal" tabindex="-1" role="dialog" aria-labelledby="mostrarCorteModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mostrarCorteModalLabel">Mostrar Datos del Corte</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm("MostrarCorte", "Generacorte", FormMethod.Get, new { id = "mostrarCorteForm" }))
+                {
+                    <div class="form-group">
+                        @Html.Label("Número de Corte")
+                        @Html.TextBox("corte", "", new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-primary">Mostrar Corte</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Mensaje de éxito -->
+<div id="successMessage" class="alert alert-success mt-4" role="alert" style="display:none;">
+    <i class="fa fa-check"></i> Corte generado correctamente.
+</div>
+<div id="anularMessage" class="alert alert-success mt-4" role="alert" style="display:none;">
+    <i class="fa fa-check"></i> Corte anulado correctamente.
+</div>
+
+<!-- Resultado del corte -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Resultado del Corte</h4>
+            <button id="copyButton" onclick="copiarAlPortapapeles()" class="btn btn-secondary mb-2">Copiar Número de Corte</button>
+            <table id="resultadoCorte" class="table table-bordered" style="display:none;">
+                <thead>
+                    <tr>
+                        <th>Número de Corte</th>
+                        <th>SalidaIdo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="numeroCorte"></td>
+                        <td>@Model.SalidaIdo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $('#corteForm').submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("GenerarCorte", "Generacorte")',
+                data: $(this).serialize(),
+                success: function (response) {
+                    if (response.success) {
+                        $('#numeroCorte').text(response.salidaCorte);
+                        $('#resultadoCorte').show();
+                        $('#successMessage').show();
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('Error al generar el corte.');
+                }
+            });
+        });
+
+        $('#anularForm').submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("AnularCorte", "Generacorte")',
+                data: $(this).serialize(),
+                success: function (response) {
+                    if (response.success) {
+                        $('#anularMessage').show();
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('Error al anular el corte.');
+                }
+            });
+        });
+
+        $('#mostrarCorteForm').submit(function (e) {
+            e.preventDefault();
+            var corte = $('#corte').val();
+            if (corte !== "") {
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("DescargarCorte", "Generacorte")',
+                    data: { corte: corte },
+                    success: function (result) {
+                        // Aquí asumimos que la descarga del archivo se maneja desde el servidor correctamente
+                        // y que el resultado esperado es el archivo descargado.
+                        // No es necesario procesar el resultado si la descarga es manejada correctamente desde el servidor.
+                    },
+                    error: function () {
+                        alert('Error al cargar datos del corte.');
+                    }
+                });
+            } else {
+                alert('Ingrese un número de corte válido.');
+            }
+        });
+
+        $('#copyButton').click(function () {
+            var copyText = document.getElementById("numeroCorte");
+            var textArea = document.createElement("textarea");
+            textArea.value = copyText.textContent;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textArea);
+        });
+    });
+</script>
+
+
+
+
+
+<!-- Include Bootstrap CSS and JS for the modal -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+

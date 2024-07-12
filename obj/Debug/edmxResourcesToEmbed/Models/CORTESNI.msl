@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataManagementModelStoreContainer" CdmEntityContainer="DataManagementEntities">
+    <FunctionImportMapping FunctionImportName="SP_VALIDAR_DATOS_CORTES_NI" FunctionName="DataManagementModel.Store.SP_VALIDAR_DATOS_CORTES_NI">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DataManagementModel.SP_VALIDAR_DATOS_CORTES_NI_Result">
+          <ScalarProperty Name="anio" ColumnName="anio" />
+          <ScalarProperty Name="mes" ColumnName="mes" />
+          <ScalarProperty Name="clientepadre" ColumnName="clientepadre" />
+          <ScalarProperty Name="cliente" ColumnName="cliente" />
+          <ScalarProperty Name="IdLista" ColumnName="IdLista" />
+          <ScalarProperty Name="IdSucursal" ColumnName="IdSucursal" />
+          <ScalarProperty Name="IdDependiente" ColumnName="IdDependiente" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="producto" ColumnName="producto" />
+          <ScalarProperty Name="unidades" ColumnName="unidades" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+          <ScalarProperty Name="ipvalor" ColumnName="ipvalor" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
